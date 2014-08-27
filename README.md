@@ -7,7 +7,7 @@ An extension for Visual Studio extension to enable autocompletion at uncommon pl
 - [Usages](#usages)
 - [Configuration](#configuration)
 - [Installation](#installation)
-- [Copyright and license](#copyright-and-license)
+- [Miscellaneous](#miscellaneous)
 
 ## Usages
 
@@ -38,7 +38,7 @@ This project has been initially created with VS 2010 pro and then migrated to VS
 
 <img src="http://makefoo.net/wp-content/uploads/2014/08/nla4.png" alt="project properties" />
 
-## Copyright and license
+## Miscellaneous
 
-Code from this [sample](http://msdn.microsoft.com/en-us/library/ee372314(v=vs.100).aspx) were used.
-Copyright Code released under [the MIT license](LICENSE).
+The code from this [sample](http://msdn.microsoft.com/en-us/library/ee372314(v=vs.100).aspx) were used in this plug-in. A short documentation of the changes made is documented [here](http://makefoo.net)
+
