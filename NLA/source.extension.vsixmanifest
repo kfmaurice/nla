@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+   <Metadata>
+      <Identity Id="30bb9f85-6d65-49e9-8978-fee60d61040b" Version="1.0" Language="en-US" Publisher="Maurice Kenmeue Fonwe" />
+      <DisplayName>NLA</DisplayName>
+      <Description xml:space="preserve">Use natural language to comment code, name and initialize your variable and even get IntelliSense support for it. :-)</Description>
+      <MoreInfo>https://github.com/kfmaurice/nla</MoreInfo>
+      <License>LICENSE.txt</License>
+      <Tags>Autocompletion, IntelliSense, nla, natural, language</Tags>
+   </Metadata>
+   <Installation InstalledByMsi="false">
+      <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="11.0" />
+      <InstallationTarget Version="[12.0,13.0)" Id="Microsoft.VisualStudio.Premium" />
+      <InstallationTarget Version="[12.0,13.0)" Id="Microsoft.VisualStudio.Pro" />
+      <InstallationTarget Version="[12.0,13.0)" Id="Microsoft.VisualStudio.Ultimate" />
+      <InstallationTarget Version="[12.0,13.0)" Id="Microsoft.VisualStudio.VWDExpress" />
+   </Installation>
+   <Dependencies>
+      <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="4.5" />
+      <Dependency Id="Microsoft.VisualStudio.MPF.11.0" DisplayName="Visual Studio MPF 11.0" d:Source="Installed" Version="11.0" />
+   </Dependencies>
+   <Assets>
+      <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+      <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
+   </Assets>
+</PackageManifest>
