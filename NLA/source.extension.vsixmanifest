@@ -6,6 +6,7 @@
       <Description xml:space="preserve">Use natural language to comment code, name and initialize your variable and even get IntelliSense support for it. :-)</Description>
       <MoreInfo>https://github.com/kfmaurice/nla</MoreInfo>
       <License>License.txt</License>
+      <Icon>nla.ico</Icon>
       <Tags>Autocompletion, IntelliSense, nla, natural, language</Tags>
    </Metadata>
    <Installation InstalledByMsi="false">

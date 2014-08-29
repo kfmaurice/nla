@@ -190,7 +190,11 @@
     <None Include="Key.snk" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="LICENSE.txt">
+    <Content Include="License.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="nla.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
