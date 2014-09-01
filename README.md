@@ -40,5 +40,5 @@ This project has been initially created with VS 2010 pro and then migrated to VS
 
 ## Miscellaneous
 
-The code from this [sample](http://msdn.microsoft.com/en-us/library/ee372314(v=vs.100).aspx) were used in this plug-in. A short documentation of the changes made is documented [here](http://makefoo.net)
+The code from this [sample](http://msdn.microsoft.com/en-us/library/ee372314(v=vs.100).aspx) were used in this plug-in. A short documentation of the changes made is documented [here](http://makefoo.net/?p=230)
 
