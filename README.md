@@ -14,17 +14,17 @@ An extension for Visual Studio extension to enable autocompletion at uncommon pl
 Here are in pictures some cases in which the plug-in can be useful.
 
 #### Variable declaration and string initialization
-<img src="http://makefoo.net/wp-content/uploads/2014/08/nla1.png" alt="variable declaration" />
-<img src="http://makefoo.net/wp-content/uploads/2014/08/nla2.png" alt="string initialization" style="margin-left: 30px"/>
+<img src="http://makefoo.azurewebsites.net/wp-content/uploads/2014/08/nla1.png" alt="variable declaration" />
+<img src="http://makefoo.azurewebsites.net/wp-content/uploads/2014/08/nla2.png" alt="string initialization" style="margin-left: 30px"/>
 #### Comments
-<img src="http://makefoo.net/wp-content/uploads/2014/08/nla3.png" alt="comments" />
+<img src="http://makefoo.azurewebsites.net/wp-content/uploads/2014/08/nla3.png" alt="comments" />
 
 ## Configuration
 
 There is an option dialog in which you could configure the plugin to support Camel, Pascal or Snake Case as well as disable 
 autocompletion in string variables.
 
-<img src="http://makefoo.net/wp-content/uploads/2014/08/vsoptions.png" alt="plug-in options" />
+<img src="http://makefoo.azurewebsites.net/wp-content/uploads/2014/08/vsoptions.png" alt="plug-in options" />
 
 ## Installation
 
@@ -36,9 +36,9 @@ This project has been initially created with VS 2010 pro and then migrated to VS
 - the references to the VS SDK 2013 assemblies needed to be manually updated (deleted and readded) in the StartUp project
 - "Start Action" in the StartUp project needed to point to the new devenv.exe executable in order for a debug session to start
 
-<img src="http://makefoo.net/wp-content/uploads/2014/08/nla4.png" alt="project properties" />
+<img src="http://makefoo.azurewebsites.net/wp-content/uploads/2014/08/nla4.png" alt="project properties" />
 
 ## Miscellaneous
 
-The code from this [sample](http://msdn.microsoft.com/en-us/library/ee372314(v=vs.100).aspx) were used in this plug-in. A short documentation of the changes made is documented [here](http://makefoo.net/?p=230)
+The code from this [sample](http://msdn.microsoft.com/en-us/library/ee372314(v=vs.100).aspx) were used in this plug-in. A short documentation of the changes made is documented [here](http://makefoo.azurewebsites.net/?p=230)
 
